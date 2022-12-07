@@ -14,13 +14,20 @@ html, body {
     font-family: 'Comfortaa';
     color:#0B2141 !important;
 }	
-
+.cardtitle{
+	align-items: center;
+	font-size:40px;
+}
+.cardinfo{
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+}
 .sectiontitle {
 	text-align: center;
     font-size:3rem;
     font-family: 'Comfortaa';
-	margin-top: 70px;
-	padding: 20px;
+	margin-top: 60px;
 	background: -webkit-linear-gradient(70deg, #6AA7EC, #D0FAFA);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -30,7 +37,7 @@ html, body {
     font-size:2rem;
     font-family: 'Comfortaa';
     color:white !important;
-	margin-top: 40px;
+	margin-top: 20px;
 	width: 1000px;
 }
 .container{
@@ -42,6 +49,26 @@ html, body {
 }
 .discord{
 	opacity: 0.85;
+}
+.org{
+	font-size:2rem;
+    font-family: 'Comfortaa';
+    color:white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.org img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.card{
+	margin: 20px;
 }
 .totalheader{
     background-image: url("/img/urmom.jpg") ;
