@@ -4,8 +4,34 @@ html, body {
 	height: 100%;
 	background: rgb(0, 0, 0);
 }
+/* width */
+::-webkit-scrollbar {
+	width: 7px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+	box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+	border-radius: 100px;
+	background-color: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #6AA7EC;
+}
 :root{
 	--main-gradient: -webkit-linear-gradient(70deg, #6AA7EC, #D0FAFA);
+}
+a:visited { 
+	text-decoration: none; 
+	color: #0B2141; 
 }
 .heroheader {
     padding-right: 100;
@@ -14,11 +40,11 @@ html, body {
     font-family: 'Comfortaa';
     color:#0B2141 !important;
 }	
-.cardtitle{
+.orgtitle{
 	align-items: center;
 	font-size:40px;
 }
-.cardinfo{
+.orginfo{
 	margin: auto;
 	text-align: center;
 	font-size: 20px;
@@ -34,11 +60,11 @@ html, body {
 }
 .aboutmeinfo{
 	text-align: center;
-    font-size:2rem;
+    font-size:1.5rem;
     font-family: 'Comfortaa';
     color:white !important;
 	margin-top: 20px;
-	width: 1000px;
+	width: 60%;
 }
 .container{
 	width: 100%;
@@ -67,18 +93,20 @@ html, body {
     border-radius: 50%;
     margin: 1rem;
 }
-.card{
+.orgcard{
+	align-self: baseline;
 	margin: 20px;
 }
 .totalheader{
     background-image: url("/img/urmom.jpg") ;
-    width: 100%;
+    width: 96%;
     height: 30%;
     align-items: center;
     display: flex;
     justify-content: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding:35;
 }
 body {
 	font-size: 1.4rem;
